@@ -1,0 +1,82 @@
+/** CUSTOM **/
+.countdown{
+	text-align:center;
+}
+span.countdown_amount{
+	font: 4.1em 'league_gothicregular', Arial, san-serif;
+	line-height:1em;
+	color:#f36c48;
+}
+span.countdown_section{
+	font: 1em 'OptimaRegular', Arial, san-serif;
+	line-height:1em;
+	text-transform:uppercase;
+	color:#fff;
+}
+@media(max-width:767px){
+	.countdown{
+		font-size: 0.74em;
+	}
+}
+
+#defaultCountdown {
+	width: 70%;
+	height: 50px;
+	margin:0 auto;
+}
+
+.hasCountdown {
+	/*
+	border: 1px solid #ccc;
+	background-color: #eee;
+	*/
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	color: #888;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 32.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown_amount {
+	font-size: 200%;
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+}
+
+
+

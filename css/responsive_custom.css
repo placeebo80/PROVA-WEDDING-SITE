@@ -1,0 +1,118 @@
+@media(max-width:767px){
+	/**** HEADER *****/
+	#header{
+	-webkit-transition:all 0.3s ease; /* WebKit */ 
+	-moz-transition:all 0.3s ease;  /* Firefox */
+	-o-transition:all 0.3s ease;  /* Opera */
+	ms-transition:all 0.3s ease; /* Microsoft */
+	transition:all 0.3s ease; /* Standard */
+	
+	}
+	#header .margin{
+		padding:0px;
+	}
+	
+	/* SPACER
+	******************************************************************/
+	.spacer_slide-t{
+	  clear: both;
+	  display: block;
+	  overflow: hidden;
+	  visibility: hidden;
+	  height:70px;
+	}
+	
+	.logo{
+		text-align:center;
+	}
+	.footer-l, .footer-r{
+		text-align:center;
+	}
+	
+	/** MAIN MENU **/
+	.menu_wrapper {
+		float: none;
+		height:auto;
+		width:100%;
+	}
+	
+	/* MENU
+	******************************************************************/
+	#menu li a {
+		font-size:1.1em;
+		color:#69797b;
+	}
+	
+	/* SLIDE GENERIC
+	******************************************************************/
+	#slide1 .text-bottom {
+		height:80px;
+	}
+	#slide1 .text-bottom .margin{
+		padding:10px 0px 0px 0px;
+	}
+	
+	
+	/* BOX
+	******************************************************************/
+	.box .margin{
+		padding:30px 30px 30px 30px;
+		text-align:center;
+	}
+	
+	/* SFONDI
+	******************************************************************/
+	.testimoni {
+		height:auto !important;
+		height:900px;
+		min-height: 900px;
+	}
+}
+
+@media(min-width:768px){
+
+}
+
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:1200px){
+
+}
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
+	
+	/* BOX
+	******************************************************************/
+	.box .margin{
+		padding:30px 50px 30px 50px;
+		text-align:center;
+	}
+	
+	/* MENU
+	******************************************************************/
+	#menu li a {
+		font-size:1em;
+		color:#69797b;
+		padding:0px 11px 0px 11px;
+	}
+	
+	/* SFONDI
+	******************************************************************/
+	.luca, .nicoletta {
+		height:auto !important;
+		height:250px;
+		min-height: 250px;
+	}
+	.testimoni {
+		height:auto !important;
+		height:900px;
+		min-height: 900px;
+	}
+}

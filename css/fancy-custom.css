@@ -1,0 +1,9 @@
+.fancybox-title {
+	font-family: 'OptimaRegular', Arial, san-serif;
+	font-size:0.9em;
+	color:#ed1c24;
+	position: relative; 
+	text-shadow: none;
+	visibility: hidden;
+	z-index: 8050;
+}
