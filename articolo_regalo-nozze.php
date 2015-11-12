@@ -1,3 +1,5 @@
+CIAOO
+
 <?php
 	$quota=$_GET['quota']; 
 	$articolo=str_replace("-","&nbsp;",$_GET['articolo']); 
